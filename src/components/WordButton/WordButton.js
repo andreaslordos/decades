@@ -46,7 +46,7 @@ function WordButton({ word, fullCandidateSize }) {
     if (wordLength > baseLength) {
       const numExtraChars = wordLength - baseLength;
       fontSize = fontSize - numExtraChars * 0.1;
-      fontSize = Math.max(0.5, fontSize);
+      fontSize = Math.max(1, fontSize);
       return `${fontSize}em`;
     } else {
       return null;

@@ -29,7 +29,7 @@ function InfoModal() {
             <AccordionItem value="item-1">
               <AccordionTrigger>What's The Goal?</AccordionTrigger>
               <AccordionContent>
-                Find groups of items or names that share something in common.
+                Group the NYT front page headlines that were published in the same decade.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
@@ -51,62 +51,22 @@ function InfoModal() {
           {" "}
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-              <AccordionTrigger>Who Are Y'all?</AccordionTrigger>
+              <AccordionTrigger>Who Made This?</AccordionTrigger>
               <AccordionContent>
-                This project is brought to you by andcomputers, feel free to
-                subscribe to our writing and other experiments.{" "}
+                Game authored by Andreas Lordos for his best friends,{" "}
                 <a
                   href="https://andcomputers.io/"
                   target="_blank"
                   className="underline font-bold"
                 >
-                  Check out our writing here.
+                  forked from this GitHub repo
                 </a>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>How Can I Support?</AccordionTrigger>
               <AccordionContent>
-                <p className="mb-1">If you'd like to support feel free!</p>
-                <ul className="list-disc">
-                  <li>
-                    <p>Help us make an upcoming puzzle by </p>
-                    <a
-                      href="mailto:jcp@mail.andcomputers.io"
-                      target="_blank"
-                      className="underline font-bold"
-                    >
-                      emailing the team.
-                    </a>
-                  </li>
-                  <li>
-                    <p className="mt-2 mb-1">Help us pay for servers & time:</p>
-                    <ul>
-                      <li>
-                        {" "}
-                        - One-time contribution via{" "}
-                        <a
-                          href="https://buy.stripe.com/7sIg1Udac6xZegodQR"
-                          target="_blank"
-                          className="underline font-bold"
-                        >
-                          Stripe.
-                        </a>
-                      </li>
-                      <li>
-                        {" "}
-                        - Recurring contributions via{" "}
-                        <a
-                          href="https://www.patreon.com/andcomputers"
-                          target="_blank"
-                          className="underline font-bold"
-                        >
-                          Patreon.
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+                <p className="mb-1">Share the game with your friends!</p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
@@ -114,30 +74,14 @@ function InfoModal() {
                 Any Other Projects to Check Out?
               </AccordionTrigger>
               <AccordionContent>
-                <div className="grid grid-flow-row">
-                  <p>Just a few! </p>
+                  No, but you can{" "}
                   <a
-                    href="https://andcomputers.io/"
+                    href="https://lordos.tech"
                     target="_blank"
                     className="underline font-bold"
                   >
-                    - Our writing and thoughts are here.
+                    hire me
                   </a>
-                  <a
-                    href="https://blacktwitter.io/"
-                    target="_blank"
-                    className="underline font-bold"
-                  >
-                    - BlackTwitter
-                  </a>
-                  <a
-                    href="https://blackwords.andcomputers.io/"
-                    target="_blank"
-                    className="underline font-bold"
-                  >
-                    - Black Wordle
-                  </a>
-                </div>
               </AccordionContent>
             </AccordionItem>
           </Accordion>

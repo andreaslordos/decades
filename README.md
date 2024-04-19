@@ -1,12 +1,10 @@
 # Connections (React, Tailwind, Shadcn/ui)
 
-This is a clone of the [NYT Connections Game](https://www.nytimes.com/games/connections). Which itself seems to be an unacknowledged clone of the British game [`Only Connect`](https://kotaku.com/new-york-times-connections-only-connect-puzzle-wordle-1850553072).
+This is a clone of [this repo](https://www.github.com/and-computers/react-connections-game), which is a clone of the [NYT Connections Game](https://www.nytimes.com/games/connections), which seems to be a clone of the British game [`Only Connect`](https://kotaku.com/new-york-times-connections-only-connect-puzzle-wordle-1850553072).
 
-Anyways..
 
-### [Click Here To Try Out The Demo](https://blackconnections.andcomputers.io/)
+### [Click Here To Try It Out]()
 
-![Gif of Connections Gameplay](/docs/instructions-gif-connections.gif)
 
 ## To Run Locally:
 
@@ -16,7 +14,7 @@ npm install
 npm run dev
 ```
 
-### Technology
+### Stack
 
 - [React 18](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -36,26 +34,6 @@ npm run dev
 - Custom hooks are in `src/hooks`
   - Both of these are code snippets taken from [Josh Comeau's Blog](https://www.joshwcomeau.com/snippets/)
 
-#### Similar Projects
-
-- [PuzzGrid](https://puzzgrid.com/about) which allows you to create your own games/puzzles, no code required.
-- [Connections Generator by swellgarfo](https://www.reddit.com/r/NYTSpellingBee/comments/152i5cx/for_those_playing_nyt_connections_i_created_a/) which also allows you to create your own games/puzzles, no code required.
-
 ### Contributing
 
 - Please fork and submit a PR if you'd like!
-
-### Projects Built Using This Repo:
-
-- _your fork here!_
-
-_Want to add one to the list? Please make a pull request._
-
-#### If you found this helpful or entertaining feel free to check out our other work!
-
-- [Writings & Thoughts](https://andcomputers.io)
-- [Black Wordle](https://blackwords.andcomputers.io)
-
-##### If you'd like to support financially
-
-- [One-Time Contribution via Stripe](https://buy.stripe.com/7sIg1Udac6xZegodQR)

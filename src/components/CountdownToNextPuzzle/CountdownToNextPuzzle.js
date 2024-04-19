@@ -26,16 +26,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   }
 
   // Create a sentence based on the time parts
-  let timeLeftString = "Next Puzzle Released in ";
-  if (timeParts.length > 2) {
-    timeLeftString += timeParts.slice(0, -1).join(", ");
-    timeLeftString += `, and ${timeParts.slice(-1)}`;
-  } else if (timeParts.length == 2) {
-    timeLeftString += `${timeParts[0]} and ${timeParts[1]}`;
-  } else {
-    timeLeftString += timeParts[0];
-  }
-  // Create a sentence based on the time parts
+  let timeLeftString = "New Puzzle Released Tomorrow!";
 
   return <div>{timeLeftString}</div>;
 };
