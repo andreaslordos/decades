@@ -3,7 +3,7 @@
 This is a clone of [this repo](https://www.github.com/and-computers/react-connections-game), which is a clone of the [NYT Connections Game](https://www.nytimes.com/games/connections), which seems to be a clone of the British game [`Only Connect`](https://kotaku.com/new-york-times-connections-only-connect-puzzle-wordle-1850553072).
 
 
-### [Click Here To Try It Out]()
+### [Click Here To Try It Out](https://decades.lordos.tech)
 
 
 ## To Run Locally:
