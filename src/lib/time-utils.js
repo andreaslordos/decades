@@ -18,7 +18,7 @@ export const getYesterday = () => startOfYesterday();
 // October 2023 Game Epoch
 // https://stackoverflow.com/questions/2552483/why-does-the-month-argument-range-from-0-to-11-in-javascripts-date-constructor
 export const firstGameDate = new Date(2024, 3, 19);
-export const periodInDays = 7;
+export const periodInDays = 1;
 
 export const getLastGameDate = (today) => {
   const t = startOfDay(today);
@@ -42,11 +42,12 @@ export const getIndex = (gameDate) => {
   let start = firstGameDate;
   let index = -1;
   console.log(firstGameDate);
+  console.log(gameDate);
   do {
     index++;
     start = addDays(start, periodInDays);
   } while (start <= gameDate);
-
+  console.log(index);
   return index;
 };
 
