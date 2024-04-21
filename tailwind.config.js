@@ -72,6 +72,7 @@ module.exports = {
     },
     fontFamily: {
       "space-mono": ["Space Mono"],
+      "cheltenham": ["Cheltenham"],
     },
   },
   plugins: [require("tailwindcss-animate")],

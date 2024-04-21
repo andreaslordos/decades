@@ -5,6 +5,20 @@
   animation-iteration-count: 5;
 }
 
+.gridLayout {
+  display: grid;
+  gap: 16px; /* or use 'gap-y-2' and 'gap-x-2' in Tailwind as inline styles */
+  grid-template-columns: repeat(2, 1fr); /* default to 2 columns */
+}
+
+/* Media query for desktops */
+@media (min-width: 768px) { /* 768px is a common breakpoint for tablets/desktops */
+  .gridLayout {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on wider screens */
+  }
+}
+
+
 @keyframes shake-horizontal {
   0% {
     transform: translateX(0%);

@@ -53,6 +53,14 @@ function WordButton({ word, fullCandidateSize }) {
     }
   }
   // word = "washingtonian";
+
+  const fontSize = getFontSize(word);
+  const buttonStyle = {
+    fontSize: "12px",
+    paddingTop: "1rem",
+    paddingBottom: "1rem",
+  };
+
   return (
     <Toggle
       className={`${styles.growShrink} select-none`}
@@ -61,8 +69,8 @@ function WordButton({ word, fullCandidateSize }) {
       onClick={flipSelection}
     >
       <p
-        style={{ fontSize: getFontSize(word) }}
-        className="font-space-mono uppercase sm:text-xs md:text-xs"
+        style={buttonStyle}
+        className="font-cheltenham uppercase sm:text-xs md:text-xs"
       >
         {word}
       </p>

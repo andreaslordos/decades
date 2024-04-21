@@ -14,6 +14,8 @@ import GameControlButtonsPanel from "../GameControlButtonsPanel";
 
 import ViewResultsModal from "../modals/ViewResultsModal";
 
+import ToggleSwitch from "../EasyMode/EasyButton";
+
 function Game() {
   const { gameData, categorySize, numCategories } =
     React.useContext(PuzzleDataContext);
@@ -63,7 +65,7 @@ function Game() {
   return (
     <>
       <h3 className="text-xl text-center mt-4">
-        Create {numCategories} groups of {categorySize}
+        <b>Group the headlines by the decade they were published</b>
       </h3>
 
       <div className={`game-wrapper`}>
@@ -102,6 +104,7 @@ function Game() {
               setShuffledRows={setShuffledRows}
               setGridShake={setGridShake}
             />
+            {/* <ToggleSwitch/> */}
           </>
         ) : (
           <ViewResultsModal />
