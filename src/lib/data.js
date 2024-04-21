@@ -55,9 +55,10 @@ export const CONNECTION_GAMES = [
     {
       category: "1970s",
       words: ["WIDE FIGHTING RAGES IN CYPRUS, TURKS CONTROL ROAD TO NICOSIA..", 
-              "NIXON RESIGNS", "CAMBODIA REDS ARE UPROOTING MILLIONS AS THEY IMPOSE ...", 
-              "THREE MILE ISLAND ACCIDENT: A CLOUD OVER ATOM POWER",
-              "THE SOCIAL STUDIES: A REVOLUTION IS ON"],
+              "NIXON RESIGNS",
+              "CAMBODIA REDS ARE UPROOTING MILLIONS AS THEY IMPOSE ...", 
+              "THREE MILE ISLAND ACCIDENT: A CLOUD OVER ATOM POWER"
+            ],
       difficulty: 2,
     },
     {
