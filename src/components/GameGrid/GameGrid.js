@@ -52,7 +52,7 @@ export function SolvedWordRow({ ...props }) {
         <div style={{ backgroundColor: color, borderRadius: 8 }}>
           <p className="font-bold pt-2 pl-4">{props.category}</p>
           {props.words.map((headline) =>
-            <p className="font-thin pb-1 pl-4">{headline}</p>
+            <p className="font-thin pb-1 pl-4">{headline.toUpperCase()}</p>
           )}
 
           {/* <p className="font-thin pb-2 pl-4">{props.words.join(", ")}</p> */}
