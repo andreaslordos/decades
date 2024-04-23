@@ -33,6 +33,8 @@ export const CONNECTION_GAMES = [
       difficulty: 4,
     },
   ],
+
+
   [
     {
       category: "1980s",
@@ -67,6 +69,8 @@ export const CONNECTION_GAMES = [
       difficulty: 1,
     },
   ],
+
+
   [
     {
       category: "2010s",
@@ -102,6 +106,8 @@ export const CONNECTION_GAMES = [
       difficulty: 4,
     }
   ],
+
+
   [
     {
       category: "2010s",
@@ -137,6 +143,8 @@ export const CONNECTION_GAMES = [
       difficulty: 4,
     }
   ],
+
+
   [
     {
       category: "2000s",
@@ -173,6 +181,46 @@ export const CONNECTION_GAMES = [
             ],
       difficulty: 4
     }
+  ],
+
+
+  [
+    {
+      category: "2000s",
+      words: ["1/1/00",
+              "Growing Number of Companies Choose Not to Offer Dividends",
+              "Vast bailout by U.S. proposed in bid to stem economic crisis",
+              "Obama; Racial Barrier falls in decisive victory"
+            ],
+      difficulty: 1
+    },
+    {
+      category: "1990s",
+      words: ["MANDELA TO GO FREE TODAY; DE KLERK PROCLAIMS ENDING OF 'CHAPTER' AFTER 27 YEARS",
+              "2 STUDENTS IN COLORADO SCHOOL SAID TO GUN DOWN AS MANY AS 23 AND KILL THEMSELVES IN A SIEGE",
+              "Simpson Is Charged, Chased, Arrested",
+              "Unabomber suspect is detained in Montana"
+            ],
+      difficulty: 2
+    },
+    {
+      category: "1950s",
+      words: ["PEACE TREATY WITH JAPAN SIGNED; .. U.S. AND TOKYO IN SECURITY PACT",
+              "President sends troops to little rock, federalizes arkansas national guard...",
+              "WAR IS DECLARED BY NORTH KOREANS; FIGHTING ON BORDER",
+              "space budget bars race with moscow"
+            ],
+      difficulty: 3
+    },
+    {
+      category: "1900s",
+      words: ["OVER 500 DEAD, $200,000,000 LOST IN SAN FRANCISCO EARTHQUAKE",
+              "DAY OF TERROR IN CZAR'S CAPITAL; Troops Slay Women and Children with Men",
+              "HOW THE 46 STATES VOTED FOR PRESIDENT",
+              "Advice to radcliffe girls; dean tells freshmen to keep shoes tied and avoid looking at boys"
+      ],
+      difficulty: 4
+    },
   ]
 ];
 
